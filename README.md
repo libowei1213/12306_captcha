@@ -49,7 +49,7 @@ image_dir = "图片文件夹路径"
 
 训练模型
 
-```python
+```
 # DenseNet模型
 python run.py --train -m=DenseNet -k=12 -d=40
 
@@ -68,7 +68,7 @@ python run.py --help
 
 在`run.py`中指定评估图片的文件夹`image_dir`，执行：
 
-```python
+```
 python run.py --test -m=DenseNet -k=12 -d=40
 # 模型参数与训练参数一致
 ```
@@ -96,7 +96,7 @@ save_fail_path = "D:\IMAGE\FAIL"    # 验证失败的图片保存路径
 ```
 
 运行`12306_test.py`
-```python
+```
 python 12306_test.py
 ```
 
